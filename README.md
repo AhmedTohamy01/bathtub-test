@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img title="github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Interlincx Logo" width="200" />
+  <br>
+  Bathtub Challenge 
+</h1>
 
-## Available Scripts
+<p><font size="3">
+  This is a mini App built using <strong><em>React.JS</em></strong>, <strong><em>Styled-Conmponents</em></strong> and <strong><em>Material-UI</em></strong>
+  <br><br> 
+	 This project is about building a web application that allows users to fill a bathtub with water or empty the bathtub by using the following instructions: 
 
-In the project directory, you can run:
+* The app starts with an empty bathtub.
+* To fill the bathtub with water click on the "Water ON" button, the water will start filling the bathtub by 20% every 2 seconds, when the bathtub is full the water will stop automatically.
+* To empty the bathtub click on the "Water OFF" button, the water will start decreasing by 20% every 2 seconds until the bathtub became empty.
+* If you tried to fill the bathtub while it's already full, the app will show a message that "The bathtub is full !".
+* If you tried to empty the bathtub while it's already empty,  the app will show a message that "The bathtub is empty !".
+* You can switch between buttons to increase or decrease the water at anytime. 
 
-### `npm start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Project Screen Shots](#project-screen-shots)
+  - [Desktop View](#desktop-view)
+  - [Mobile View](#mobile-view)
+- [Technology Used](#technology-used)
+- [How To Use](#how-to-use)
+- [Author](#author)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# Project Screen Shots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ # Desktop View
+ 
+<div align="center"><a name="menu"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![desktop](https://user-images.githubusercontent.com/54721194/108583340-78b30a00-7341-11eb-89ac-057ce04eda2e.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</div>
 
-### `npm run eject`
+ # Mobile View
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<div align="center"><a name="menu"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![mobile](https://user-images.githubusercontent.com/54721194/108583411-eeb77100-7341-11eb-91bb-a85b9079cca3.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+</div>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# Technology Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I have built this project using the following tools:
+- React.JS
+- React Hooks.
+- Material UI.
+- Styled Components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# How To Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To be able to use this react app locally in a development environment you will need the following:
 
-### Analyzing the Bundle Size
+1) You will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) installed on your computer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2) Then From your terminal, you should do the following:
 
-### Making a Progressive Web App
+```cmd
+# Clone this repository
+git clone https://github.com/AhmedTohamy01/bathtub-test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Go into the repository
+cd bathtub-test
 
-### Advanced Configuration
+# Install dependencies
+npm install 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3) Run the app
+```cmd
+npm start
+```
 
-### Deployment
+4) Open the app in your browser 
+(http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5) Now you can play with the water. 
+Happy shower!
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Author
+
+👤 **Ahmed Tohamy**
+- Github: https://github.com/AhmedTohamy01
+- Linkedin: https://www.linkedin.com/in/ATohamy
+- Email: Ahmed-Tohamy@outlook.com
