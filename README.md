@@ -27,7 +27,6 @@
   - [Mobile View](#mobile-view)
 - [Technology Used](#technology-used)
 - [How To Use](#how-to-use)
-- [Author](#author)
 
 
 # Project Screen Shots
@@ -90,9 +89,3 @@ npm start
 Happy shower!
 
 
-# Author
-
-👤 **Ahmed Tohamy**
-- Github: https://github.com/AhmedTohamy01
-- Linkedin: https://www.linkedin.com/in/ATohamy
-- Email: Ahmed-Tohamy@outlook.com
